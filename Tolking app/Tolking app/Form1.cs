@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Tolking_app
 {
-    public partial class Form1 : Form
+    public partial class NoteTaker : Form
     {
-        public Form1()
+        public NoteTaker()
         {
             InitializeComponent();
+        }
+
+        private void NoteTaker_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
